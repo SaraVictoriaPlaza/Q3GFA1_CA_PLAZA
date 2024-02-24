@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FA1</title>
+</head>
+
+<body>
+    <p id="firstname"></p>
+    <p id="lastname"></p>
+    <p id="age"></p>
+    <script>
+        var firstname= prompt("Please Enter Your First Name: ");
+        var lastname= prompt("Please Enter Your Last Name: ");
+        var birthyear= prompt("Please Enter Your Birth Year ");
+        var age=2024-birthyear;
+        document.getElementById('firstname','lastname','age').innerHTML="Hello " +firstname+" "+lastname+"! How does it feel to be "+age+" years old?";
+    </script>
+</body>
+</html>
